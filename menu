@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment with Bootstrap</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        /* Custom styles for the dropdown menu */
+        .dropdown-menu {
+            width: 100%;
+            background-color: #f5f5f5; /* Set background color for the dropdown menu */
+        }
+
+        /* Custom styles for the tall section */
+        .tall-section {
+            height: 1000px; /* Set the height of the section */
+            background-color: #e9ecef; /* Set background color for the tall section */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <!-- Company Name -->
+                <a class="navbar-brand" href="#">Food, LLC</a>
+                <!-- Mobile Menu Button -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarMenu">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Navbar Menu -->
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="nav navbar-nav visible-xs">
+                    <!-- Dropdown Menu -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Chicken</a></li>
+                            <li><a href="#">Beef</a></li>
+                            <li><a href="#">Sushi</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Heading -->
+    <div class="container text-center">
+        <h1>Our Menu</h1>
+    </div>
+
+    <!-- Tall Section -->
+    <section class="tall-section">
+        <div class="container">
+            <div class="row">
+                <!-- Content here -->
+                <div class="col-xs-12">
+                    <!-- Add your content here to make the section tall -->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec metus id leo iaculis fringilla. Vivamus auctor nec velit ut tincidunt. Nam vitae dolor at nunc tempor luctus. Nulla vitae eros quis elit fringilla congue vitae vel ipsum. Sed interdum ligula ac libero finibus, et fermentum urna imperdiet. Nullam ac libero ac nunc fermentum varius.</p>
+                    <!-- Add more content to make the section really tall -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
